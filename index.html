@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal |بازشونده</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button type="button" class="show-modal">خرید بلیت</button>
+    <div class="container">
+      <div class="wrapper">
+        <header>
+          <div class="top-content">
+            <div class="details-wrapper">
+              <div class="icon-wrapper">
+                <img src="./Images/users-check.svg" alt="user-check" />
+              </div>
+              <div class="text-wrapper">
+                <span class="span-bold">خرید صندلی</span>
+                <span class="span-regular"
+                  >تعداد صندلی های مورد نیاز خود را انتخاب کنید.</span
+                >
+              </div>
+            </div>
+            <div class="close-icone-wrapper">
+              <img src="./Images/close.svg" alt="close-icon" />
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="counter">
+            <div class="operator">
+              <img src="./Images/plus.svg" alt="plus-icon" />
+            </div>
+            <div class="counter-time">32</div>
+            <div class="operator">
+              <img src="./Images/minus.svg" alt="minus-icon" />
+            </div>
+          </div>
+          <div class="price-informations">
+            <div class="price-information">
+              <span class="span-bold">قیمت هر صندلی</span>
+              <span class="span-regular"> 10،000 تومان </span>
+            </div>
+            <div class="price-information">
+              <span class="span-bold"> مبلغ کل </span>
+              <span class="span-regular"> 320،000 تومان </span>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div class="btn-wrapper">
+            <div><button class="cancel-btn btn">لغو</button></div>
+            <div><button class="confirm-btn btn">تایید</button></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
